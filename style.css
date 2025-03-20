@@ -1,3 +1,8 @@
 body, html {
     font-size: x-large;
 }
+
+img {
+    size: 90px;
+    height: 70px;
+}
