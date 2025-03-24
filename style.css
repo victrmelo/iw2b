@@ -3,6 +3,7 @@ body, html {
 }
 
 img {
-    size: 90px;
-    height: 70px;
+    size: 100px;
+    height: 90px;
+    align-items: center;
 }
