@@ -93,11 +93,11 @@
     </table>
 
     <script type="text/javascript">
-        var cartela B = [];//1 a 15
-        var cartela I = [];//16 a 30
-        var cartela N = [];//31 a 45
-        var cartela G = [];//46 a 60
-        var cartela O = [];//61 a 75
+        var cartelaB = [];//1 a 15
+        var cartelaI = [];//16 a 30
+        var cartelaN = [];//31 a 45
+        var cartelaG = [];//46 a 60
+        var cartelaO = [];//61 a 75
 
         function gerararray(NumeroInicial, quantidade) {
             var retorno = []
@@ -108,6 +108,31 @@
             }
             return retorno
         }
+
+        cartelaB = gerararray(1,15);
+        console.log("Array da Coluna B")
+        console.log(cartelaB);
+
+        cartelaI = gerararray(16, 14);
+        console.log("Array da Coluna I")
+        console.log(cartelaI);
+
+
+        cartelaN = gerararray(31, 14);
+        console.log("Array da Coluna N")
+        console.log(cartelaN);
+
+        cartelaG = gerararray(46, 14);
+        console.log("Array da Coluna G")
+        console.log(cartelaG);
+
+        cartelaO = gerararray(61, 15);
+        console.log("Array da Coluna O")
+        console.log(cartelaO);
+
+
+
+
         
 
         
